@@ -1,0 +1,1 @@
+The product of the tripplet summing 1000 is: 31875000
