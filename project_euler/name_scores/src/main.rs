@@ -20,7 +20,7 @@ fn main() {
     // https://stackoverflow.com/questions/56105305/how-to-sort-a-vec-of-structs-by-a-string-field
     name_vec.sort_by_key(|d| d.name.clone());
     
-    let mut i: u32 = 1;
+    let mut i: u32 = 0;
     print!("The Sorted list is: ");
     for n in name_vec {
         i += 1;
