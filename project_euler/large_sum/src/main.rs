@@ -15,7 +15,7 @@ fn main() {
     for n in data.chars() {
         if n != '\n' {
             sum += (n as i8 - 0x30) as i128;
-        }i
+        }
     }
 
 
